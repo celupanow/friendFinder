@@ -3,45 +3,16 @@
 
 var friends = [
     {
-        name: "Ahmed",
-        photo: "test.jpg",
-        scores: [
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
-        ]
+        name: "Kitty",
+        photo: "https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/96760436_10156764996625633_8596842827852283904_o.jpg?_nc_cat=107&_nc_sid=730e14&_nc_ohc=9BuOxJ0IU4QAX84vhmp&_nc_ht=scontent-den4-1.xx&oh=9251a50af9711be4aa12d1e6057dd638&oe=5EF271F7",
+        scores: [5,1,4,4,5,1,2,5,4,1]
+    },
+    {
+        name: "Susan",
+        photo: "https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/69561751_10156106220245633_1633707870367252480_o.jpg?_nc_cat=110&_nc_sid=730e14&_nc_ohc=a8IPoKFcFBsAX-xL5qQ&_nc_ht=scontent-den4-1.xx&oh=bf1db3dcf4d7b8c34ef68a00f2aebe89&oe=5EF051E5",
+        scores: [5,1,4,4,3,5,2,3,4,2]
     }
 ];
 
-// Determine the user's most compatible friend using the following as a guide:
+module.exports = friends;
 
-// Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
-// With that done, compare the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the totalDifference.
-
-// Example:
-
-// User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
-
-// User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
-
-// Total Difference: 2 + 1 + 2 = 5
-
-
-
-
-
-// Remember to use the absolute value of the differences. Put another way: no negative solutions! Your app should calculate both 5-3 and 3-5 as 2, and so on.
-// The closest match will be the user with the least amount of difference.
-
-
-
-// Once you've found the current user's most compatible friend, display the result as a modal pop-up.
-
-// The modal should display both the name and picture of the closest match.

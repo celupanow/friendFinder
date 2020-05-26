@@ -14,41 +14,49 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
-  <!-- Link to custom CSS -->
-  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-<style>
-  body {
-    background-color: rgb(54, 214, 161);
-}
 
-.jumbotron {
-    text-align: center;
-    background-color: rgb(59, 3, 65);
-    color: white;
-}
+  <!-- I had a link to the custom CSS file, but for some reason it doesn't work when
+    I push everything to Heroku. The deployed app was only showing the built in Bootstrap CSS
+    and not my custom CSS. So I tried adding the CSS directly into the HTML and that seems to work.
+    That's why I have it here in these script tags instead of the link to the custom CSS.
+    (I tried to fix the problem by Googling the error, but after a while I still couldn't figure out
+    the problem, so I used this work around.) -->
+  <style>
+    body {
+      background-color: rgb(54, 214, 161);
+    }
 
-p {
-    font-size: 24px;
-}
+    .jumbotron {
+      text-align: center;
+      background-color: rgb(59, 3, 65);
+      color: white;
+    }
 
-.btn-info {
-    background-color: rgb(210, 141, 255);
-    color: white;
-    border-color: rgb(59, 3, 65);
-    margin-top: 50px;
-}
+    p {
+      font-size: 24px;
+    }
 
-.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info {
-    color: black;
-    background-color: rgb(54, 214, 161);
-    border-color: rgb(59, 3, 65);
-}
+    .btn-info {
+      background-color: rgb(210, 141, 255);
+      color: white;
+      border-color: rgb(59, 3, 65);
+      margin-top: 50px;
+    }
 
-hr {
-    background-color: rgb(210, 141, 255);
-}
+    .btn-info:hover,
+    .btn-info:focus,
+    .btn-info:active,
+    .btn-info.active,
+    .open>.dropdown-toggle.btn-info {
+      color: black;
+      background-color: rgb(54, 214, 161);
+      border-color: rgb(59, 3, 65);
+    }
 
-</style>
+    hr {
+      background-color: rgb(210, 141, 255);
+    }
+  </style>
 </head>
 
 <body>

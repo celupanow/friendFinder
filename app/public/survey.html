@@ -9,33 +9,39 @@
   <!-- Link to Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-      <!-- Link to jQuery -->
+  <!-- Link to jQuery and Bootstrap Javascript-->
   <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <!-- Link to custom CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 
 
 </head>
 
 <body>
-
+  <!-- initial container -->
   <div class="container">
-
+    <!-- header -->
     <h2>Survey Questions</h2>
     <hr>
-
+    <!-- first section -->
     <h3><strong>About You</strong></h3>
+    <!-- asking for the user's name -->
     <label for="name">Name (Required)</label>
     <input type="text" id="name" class="form-control" required="">
-
+    <!-- asking for the user's link to their photo -->
     <label for="link">Link to Photo Image (Required)</label>
     <input type="text" id="link" class="form-control" required="">
 
     <hr>
-
+    <!-- the form for the survey -->
     <form>
       <div class="form-group row">
         <div class="col-sm-10 my-1">
-          <label class="my-1 mr-2 col-form-label" for="q1">Your mind is always buzzing with unexplored ideas and plans.</label>
+          <label class="my-1 mr-2 col-form-label" for="q1">Your mind is always buzzing with unexplored ideas and
+            plans.</label>
           <select class="custom-select mr-sm-2" id="q1">
             <option selected>Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -47,7 +53,8 @@
         </div>
 
         <div class="col-sm-10 my-1">
-          <label class="my-1 mr-2 col-form-label" for="q2">Generally speaking, you rely more on your experience than your imagination.</label>
+          <label class="my-1 mr-2 col-form-label" for="q2">Generally speaking, you rely more on your experience than
+            your imagination.</label>
           <select class="custom-select mr-sm-2" id="q2">
             <option selected>Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -59,7 +66,8 @@
         </div>
 
         <div class="col-sm-10 my-1">
-          <label class="my-1 mr-2 col-form-label" for="q3">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+          <label class="my-1 mr-2 col-form-label" for="q3">You find it easy to stay relaxed and focused even when there
+            is some pressure.</label>
           <select class="custom-select mr-sm-2" id="q3">
             <option selected>Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -95,7 +103,8 @@
         </div>
 
         <div class="col-sm-10 my-1">
-          <label class="my-1 mr-2 col-form-label" for="q6">It is often difficult for you to relate to other people’s feelings.</label>
+          <label class="my-1 mr-2 col-form-label" for="q6">It is often difficult for you to relate to other people’s
+            feelings.</label>
           <select class="custom-select mr-sm-2" id="q6">
             <option selected>Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -107,7 +116,8 @@
         </div>
 
         <div class="col-sm-10 my-1">
-          <label class="my-1 mr-2 col-form-label" for="q7">In a discussion, truth should be more important than people’s sensitivities.</label>
+          <label class="my-1 mr-2 col-form-label" for="q7">In a discussion, truth should be more important than people’s
+            sensitivities.</label>
           <select class="custom-select mr-sm-2" id="q7">
             <option selected>Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -130,9 +140,10 @@
             <option value="5">5 (Strongly Agree)</option>
           </select>
         </div>
-        
+
         <div class="col-sm-10 my-1">
-          <label class="my-1 mr-2 col-form-label" for="q9">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
+          <label class="my-1 mr-2 col-form-label" for="q9">You think that everyone’s views should be respected
+            regardless of whether they are supported by facts or not.</label>
           <select class="custom-select mr-sm-2" id="q9">
             <option selected>Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -144,7 +155,8 @@
         </div>
 
         <div class="col-sm-10 my-1">
-          <label class="my-1 mr-2 col-form-label" for="q10">You feel more energetic after spending time with a group of people.</label>
+          <label class="my-1 mr-2 col-form-label" for="q10">You feel more energetic after spending time with a group of
+            people.</label>
           <select class="custom-select mr-sm-2" id="q10">
             <option selected>Choose...</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -162,6 +174,7 @@
     </form>
 
     <hr>
+    <!-- a footer with links to the api and the github repo -->
     <footer class="footer">
       <div class="container">
         <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/celupanow/friendFinder">GitHub
@@ -171,13 +184,11 @@
 
   </div>
 
+  <!-- Modal -->
   <div id="results-modal" class="modal fade" role="dialog">
     <div class="modal-dialog">
-
-      <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">×</button>
           <h2 class="modal-title"><strong>Best Match</strong></h2>
         </div>
         <div class="modal-body">
@@ -208,8 +219,8 @@
         }
       });
 
-      $(".chosen-select").each(function () {
-        if ($(this).val() === "") {
+      $(".custom-select").each(function () {
+        if ($(this).val() === "Choose...") {
           isValid = false;
         }
       });
@@ -234,8 +245,6 @@
         ]
       };
 
-      console.log(newFriend);
-
       $.post("/api/friends", newFriend, function (data) {
         $("#match-name").text(data.name);
         $("#match-img").attr("src", data.photo);
@@ -246,5 +255,3 @@
     }
   });
 </script>
-
-

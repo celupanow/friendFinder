@@ -1,0 +1,36 @@
+
+body {
+    background-color: rgb(54, 214, 161);
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: rgb(59, 3, 65);
+    color: white;
+}
+
+p {
+    font-size: 24px;
+}
+
+.btn-info {
+    background-color: rgb(210, 141, 255);
+    color: white;
+    border-color: rgb(59, 3, 65);
+    margin-top: 50px;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info {
+    color: black;
+    background-color: rgb(54, 214, 161);
+    border-color: rgb(59, 3, 65);
+}
+
+hr {
+    background-color: rgb(210, 141, 255);
+}
+
+.container {
+    background-color: rgb(59, 3, 65);
+    color: white;
+}

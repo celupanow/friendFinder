@@ -13,7 +13,7 @@ Working Link
  - Display their best match with a modal.
  
 ## How It Works
-This application has a server.js
+This application has a server.js file to run the server and uses Node.js and Express. Using GET and POST routes, it displays the home page, links to the survey page, receives the data from the user, and displays all the data to the API. When the user reaches the home page, they click the button to take the survey. They must put in their name, photo link, and answer all the questions. Missing one of these will display an alert prompting the user to go back and fill out every question. 
 
 ## Technologies
 
@@ -24,5 +24,5 @@ This application has a server.js
  - AJAX
  - Giphy API
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODcxMjE0M119
+eyJoaXN0b3J5IjpbNzQ2MTgyMDY3XX0=
 -->

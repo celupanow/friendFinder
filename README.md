@@ -23,7 +23,6 @@ This application has a server.js file to run the server and uses Node.js and Exp
  - JavaScript
  - Node.js
  - Express
- - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjM5MDQ2OTldfQ==
+eyJoaXN0b3J5IjpbLTgxNjY1MjY1OF19
 -->

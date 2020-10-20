@@ -1,3 +1,136 @@
+<!-- PROJECT SHIELDS -->
+
+[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![LinkedIn][linkedin-shield]][linkedin-url]
+
+ 
+<h3 align="center">Friend Finder</h3>
+<p align="center">
+This application allows the user to answer survey questions, which then match them up with information about other users to determine who their closest match is.
+<br />
+<br />
+<a href="https://frozen-brook-49925.herokuapp.com/">View Demo</a>
+·
+<a href="https://github.com/celupanow/friendFinder/issues">Report Bug</a>
+·
+<a href="https://github.com/celupanow/friendFinder/issues">Request Feature</a>
+
+</p>
+
+</p>
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+* [About the Project](#about-the-project)
+	* [Built With](#built-with)
+* [Getting Started](#getting-started)
+	* [Prerequisites](#prerequisites)
+	* [Installation](#installation)
+* [Roadmap](#roadmap)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
+
+ 
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+![Eat-Da-friendFinder](./public/assets/img/eatdafriendFinder-agile-wave.png "Eat-Da-friendFinder")
+
+### Built With
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Handlebars](https://handlebarsjs.com/)
+* [Node.js](https://nodejs.org)
+* [MySQL](https://www.mysql.com/)
+* [Express](https://expressjs.com/)
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+To get a local copy up and running follow these simple steps.
+
+
+### Prerequisites
+
+You will need to have the lastest version of npm installed.
+* npm
+```sh
+npm install npm@latest -g
+```
+You will also need MySQL installed. There is a schema file and a seeds file included with the basic sample data you see in the working demo. If you are using MySQL Workbench, you should be able to run this script and create the database.
+  
+### Installation
+
+1. Clone the repo
+
+```sh
+
+git clone https://github.com/celupanow/friendFinder.git
+
+```
+2. Install the NPM packages
+```sh
+npm install
+```
+3. Run the MySQL schema and seeds to create the database
+4. Run the application using the command line
+```sh
+node server.js
+```
+5. Go to localhost:8080 in your browser
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+  
+
+See the [open issues](https://github.com/celupanow/friendFinder/issues) for a list of proposed features (and known issues).
+
+<!-- CONTACT -->
+
+## Contact
+Christina Lupanow - christina@christinalupanow.com
+<p>
+Project Link: [https://frozen-brook-49925.herokuapp.com/](https://frozen-brook-49925.herokuapp.com/)
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+* [Heroku](https://heroku.com)
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/celupanow/friendFinder.svg?style=flat-square
+
+[contributors-url]: https://github.com/celupanow/friendFinder/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/celupanow/friendFinder.svg?style=flat-square
+
+[forks-url]: https://github.com/celupanow/friendFinder/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/celupanow/friendFinder.svg?style=flat-square
+
+[stars-url]: https://github.com/celupanow/friendFinder/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/celupanow/friendFinder.svg?style=flat-square
+
+[issues-url]: https://github.com/celupanow/friendFinder/issues
+
+[license-shield]: https://img.shields.io/github/license/celupanow/friendFinder.svg?style=flat-square
+
+[license-url]: https://github.com/celupanow/friendFinder/blob/master/LICENSE.txt
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+
+[linkedin-url]: https://linkedin.com/in/celupanow
+
+[product-screenshot]: images/screenshot.png
+
+
 # friendFinder
 This application allows the user to answer survey questions, which then match them up with information about other users to determine who their closest match is.
 
@@ -24,5 +157,5 @@ This application has a server.js file to run the server and uses Node.js and Exp
  - Node.js
  - Express
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNjY1MjY1OF19
+eyJoaXN0b3J5IjpbLTE0NDkwMzgyNSwtODE2NjUyNjU4XX0=
 -->

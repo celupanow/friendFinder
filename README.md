@@ -39,9 +39,9 @@ This application allows the user to answer survey questions, which then match th
 ### Built With
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Handlebars](https://handlebarsjs.com/)
+* [JavaScript](https://www.javascript.com/)
+* [jQuery](https://jquery.com/)
 * [Node.js](https://nodejs.org)
-* [MySQL](https://www.mysql.com/)
 * [Express](https://expressjs.com/)
 
 <!-- GETTING STARTED -->
@@ -57,7 +57,6 @@ You will need to have the lastest version of npm installed.
 ```sh
 npm install npm@latest -g
 ```
-You will also need MySQL installed. There is a schema file and a seeds file included with the basic sample data you see in the working demo. If you are using MySQL Workbench, you should be able to run this script and create the database.
   
 ### Installation
 
@@ -72,12 +71,11 @@ git clone https://github.com/celupanow/friendFinder.git
 ```sh
 npm install
 ```
-3. Run the MySQL schema and seeds to create the database
-4. Run the application using the command line
+3. Run the application using the command line
 ```sh
 node server.js
 ```
-5. Go to localhost:8080 in your browser
+4. Go to localhost:8080 in your browser
 
 <!-- ROADMAP -->
 
@@ -157,5 +155,5 @@ This application has a server.js file to run the server and uses Node.js and Exp
  - Node.js
  - Express
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDkwMzgyNSwtODE2NjUyNjU4XX0=
+eyJoaXN0b3J5IjpbNzMzNzQ2ODQ3LC04MTY2NTI2NThdfQ==
 -->

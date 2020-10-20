@@ -34,7 +34,7 @@ This application allows the user to answer survey questions, which then match th
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-![Eat-Da-friendFinder](./public/assets/img/eatdafriendFinder-agile-wave.png "Eat-Da-friendFinder")
+![Friend Finder](./public/assets/img/eatdafriendFinder-agile-wave.png "Friend Finder")
 
 ### Built With
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -128,5 +128,5 @@ Project Link: [https://frozen-brook-49925.herokuapp.com/](https://frozen-brook-4
 
 [product-screenshot]: images/screenshot.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODgxNDQwNCwtODE2NjUyNjU4XX0=
+eyJoaXN0b3J5IjpbNTMxMDU1NzMwLC04MTY2NTI2NThdfQ==
 -->

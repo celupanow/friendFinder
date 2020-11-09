@@ -124,9 +124,10 @@ Project Link: [https://frozen-brook-49925.herokuapp.com/](https://frozen-brook-4
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 
-[linkedin-url]: https://linkedin.com/in/celupanow
+[linkedin-url]: https://www.linkedin.com/in/christinalupanow
 
 [product-screenshot]: images/screenshot.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTUyNTc2MywtODE2NjUyNjU4XX0=
+eyJoaXN0b3J5IjpbMTk1MTc1NzY5NSwxMDg5NTI1NzYzLC04MT
+Y2NTI2NThdfQ==
 -->
